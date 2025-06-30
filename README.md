@@ -1,31 +1,29 @@
-<<<<<<< HEAD
-# React + Vite
+# 🛒 React E-Commerce Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# React E-commerce Store 🛒
-
-A modern, responsive e-commerce web application built using React.
+A full-featured e-commerce web app built using React, Redux Toolkit, Stripe, and Vite. Users can browse products, add items to the cart, and securely complete payments.
 
 ## 🔥 Features
-- Dynamic product listing (Laptops, Watches, Cameras)
-- Real product images from Unsplash
-- Responsive and clean UI
-- Organized by categories
-- Easily extendable with cart, checkout, and authentication
 
-## 🚀 Technologies Used
-- React
-- HTML5 / CSS3
-- JavaScript (ES6+)
-- Unsplash (for royalty-free product images)
->>>>>>> f160abbb6e9e370673950c9e557df007f27f3558
+- 🖥️ Product Listings (Laptops, Watches, Cameras, etc.)
+- 🛍️ Cart functionality with quantity and pricing
+- 🧾 Checkout with Stripe integration
+- 🎯 Redux Toolkit for global cart state management
+- 📦 Clean and responsive UI using CSS
+
+## 🛠️ Tech Stack
+
+- React + Vite
+- Redux Toolkit
+- Stripe Payment Gateway
+- Express.js (for backend checkout session)
+- JSON as mock database
+- CSS / Responsive layout
+
+## 🚀 Getting Started
+
+### Clone the repo
+
+```bash
+git clone https://github.com/ayuzzp/react-ecommerce-store.git
+cd react-ecommerce-store
+
