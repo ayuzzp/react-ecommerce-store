@@ -15,9 +15,10 @@ app.post("/create-checkout-session", async (req, res) => {
       currency: "usd", // or "inr" if you're pricing in rupees
       product_data: {
         name: item.name,
-        images: [item.image],
+       images: item.image.length < 2000 ? [item.image] : [],
       },
-      unit_amount: item.price , // Stripe expects amount in cents/paise
+      unit_amount: item.price * 100, // ✅ convert ₹ to paise (or $ to cents)
+
     },
     quantity: item.quantity,
   }));
